@@ -39,6 +39,48 @@
 
 // || - or
 // && - and
+
+//////////////////////////////////////////////////////////////////////////////////
+
+//falsy-0   undefined   null    NaN     false
+
+
+//Primitiv data tipee
+//string,number,bigInt,Boolean,Symbol,null,undefind - primitive
+//Object-non-primitive (by referance)
+//Object-
+// const obj1 = new Object() //constractor
+// const obj2 = {} // literal
+
+// const obj2 = structuredClone(obj1) //deep copy
+// const obj2 = JSON.parse(JSON.stringify(obj1)) //deep copy
+  
+// const obj2=obj1 // shallow copy
+// const obj2 = { ...obj1 } //deep copy (but not nested)
+
+//Array,Object,Error,Date
+
+//const obj1={
+    // 'firstName':'Isa',
+    // 'lastName':'Aliyev',
+    // age:18,
+    // info:{
+        // adress:'Qarayev',
+        // city:'Baku',
+    // }
+// }
+// const obj2={...obj1}
+// obj1["first-name"]='asi'
+// obj2.lastName='alizade'
+
+// console.log('obj1',obj1)
+// console.log('obj2',obj2)
+
+
+// const arr2 = [1, 3, 5, 8, true, undefined, null, false, 'ulfat', 7, 9, 0, 'h', false, 'Ayxan', 'Elshen']
+// console.log(arr2[arr2.length - 2]);   arxadan saymağa başlayır
+// console.log(arr2.at(1));
+// console.log(arr2[1]);
 //////////////////////////////////////////////////////////////////////////////////
 
 //if-başda verilir şərtdi.müəyyən şərtlərin doğru olub olmadığını yoxlayır.

@@ -55,15 +55,21 @@
 
 ///////////////////////////////////////////////////////////////////////////// Tapşırıq 7
 
-var reQem
+const obj1={
+    'firstName':'Isa',
+    'lastName':'Aliyev',
+    age:18,
+    info:{
+        adress:'Qarayev',
+        city:'Baku',
+    }
+}
+const obj2={...obj1}
+obj1["first-name"]='asi'
+obj2.lastName='alizade'
 
-
-
-
-
-
-
-
+console.log('obj1',obj1)
+console.log('obj2',obj2)
 
 //////////////////////////////////////////////////////////////////Task1///////////////////////////////////////////////////////////////
 //1.
